@@ -1,0 +1,66 @@
+body {
+  margin: 10;
+  padding: 20;
+  border: 10px;
+  background-color: #eedcdf;
+  border-top: solid 5px #c78bbd;
+  border-right: solid 12px #c78bbd;
+  border-bottom: solid 5px #c78bbd;
+  border-left: solid 12px #c78bbd; }
+
+.header {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden; }
+
+.one {
+  list-style: square inside;
+  background-color: #d8bfd8; }
+
+.two {
+  list-style: circle; }
+
+div a {
+  text-decoration: none;
+  color: #000000; }
+
+div a:hover {
+  color: #000000; }
+
+article .article1:hover, article .article2:hover {
+  transform: scale(1.01); }
+
+.container {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  background-position: center; }
+
+.list {
+  list-style-position: inside;
+  font-size: 25px;
+  background-image: url(cielo.jpg); }
+
+.section1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: #7c0350;
+  background-color: lightcoral; }
+
+footer {
+  background-image: linear-gradient(#e6e6fa, #bdbdbd); }
+
+@media (min-width: 770px) and (max-width: 990px) {
+  .body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+  .carausel {
+    display: flexbox;
+    width: min-content; }
+  .navbarmenu {
+    margin: 15px;
+    padding: 15px;
+    flex-direction: row-reverse; } }
